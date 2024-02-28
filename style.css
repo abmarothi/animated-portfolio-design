@@ -77,39 +77,3 @@ justify-content: center;
     text-transform: uppercase;
     font-weight: 400;
 }
-/* Default styles */
-/* Add your existing styles here */
-
-/* Media queries for smaller screens */
-@media only screen and (max-width: 768px) {
-    #nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #navpart2 {
-        margin-top: 20px;
-    }
-}
-
-/* Media queries for mobile screens */
-@media only screen and (max-width: 480px) {
-    #nav {
-        padding: 10px; /* Add some padding to the navigation for better spacing */
-    }
-    #nav h3 {
-        font-size: 16px; /* Adjust font size for navigation items */
-    }
-    #middle {
-        text-align: center; /* Center align the content in the middle section */
-    }
-    #img1,
-    #img2,
-    #img3 {
-        max-width: 100%; /* Ensure images are not wider than the screen */
-        height: auto; /* Maintain aspect ratio of images */
-    }
-    #footer h3 {
-        font-size: 14px; /* Adjust font size for footer */
-    }
-}
