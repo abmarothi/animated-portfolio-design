@@ -94,19 +94,22 @@ justify-content: center;
 
 /* Media queries for mobile screens */
 @media only screen and (max-width: 480px) {
-    #nav h3 {
-        font-size: 18px;
+    #nav {
+        padding: 10px; /* Add some padding to the navigation for better spacing */
     }
-    #middle h1 {
-        font-size: 24px;
+    #nav h3 {
+        font-size: 16px; /* Adjust font size for navigation items */
+    }
+    #middle {
+        text-align: center; /* Center align the content in the middle section */
     }
     #img1,
     #img2,
     #img3 {
-        width: 100%;
-        height: auto;
+        max-width: 100%; /* Ensure images are not wider than the screen */
+        height: auto; /* Maintain aspect ratio of images */
     }
     #footer h3 {
-        font-size: 14px;
+        font-size: 14px; /* Adjust font size for footer */
     }
 }
