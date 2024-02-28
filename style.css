@@ -77,3 +77,32 @@ justify-content: center;
     text-transform: uppercase;
     font-weight: 400;
 }
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    #nav {
+        padding: 15px;
+    }
+    #navpart2 {
+        gap: 20px;
+    }
+    #main h1 {
+        font-size: 40px;
+        line-height: 60px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    img {
+        height: 200px;
+        top: 15%;
+        left: 25%;
+    }
+    #footer {
+        padding: 15px;
+    }
+    #footer h3 {
+        margin-top: 5%;
+        font-size: 20px;
+    }
+}
+
