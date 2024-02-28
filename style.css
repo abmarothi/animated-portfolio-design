@@ -77,3 +77,25 @@ justify-content: center;
     text-transform: uppercase;
     font-weight: 400;
 }
+/* Default styles */
+/* Add your existing styles here */
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    body {
+        font-size: 14px; /* Example adjustment */
+    }
+}
+
+/* Media queries for even smaller screens */
+@media screen and (max-width: 480px) {
+    /* Adjustments for even smaller screens */
+    #nav {
+        display: none; /* Example adjustment */
+    }
+    
+    #middle {
+        text-align: center; /* Example adjustment */
+    }
+}
